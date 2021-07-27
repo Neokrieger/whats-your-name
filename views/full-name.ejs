@@ -1,6 +1,9 @@
 <h1 id="full-name"> GET YOUR GAME ON</h1>
 <body>
 <p><%= `${"Player1: "}${player1Name} ${"Health: "}${player1Health}` %> </p>
+<button id="attackPlayer1" onclick=<%=`${decreasePlayerHealth()}`%> >Attack</button>
+
 
 <p><%= `${"Player2: "}${player2Name} ${"Health: "}${player2Health}` %> </p>
+<button id="attackPlayer2">Attack</button>
 </body>
