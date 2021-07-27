@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
 app.post('/name', (req, res) => {
   console.log("in the post method!")
   res.render('full-name.ejs', {
-    firstName: req.body.firstName,
-    lastName: req.body.lastName
+    player1Name: req.body.player1Name,
+    player2Name: req.body.player2Name
   })
 })
 
